@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BancoSeguro - Tu banco de confianza</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Banco<span>Seguro</span></h1>
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#productos">Productos</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <li><a href="#" class="btn-login"><i class="fas fa-user"></i> Acceso Clientes</a></li>
+                </ul>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Banca digital para un mundo en evolución</h2>
+                <p>Soluciones financieras innovadoras para particulares y empresas</p>
+                <div class="hero-buttons">
+                    <a href="#productos" class="btn btn-primary">Nuestros Productos</a>
+                    <a href="#contacto" class="btn btn-secondary">Contactar</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1601597111158-2fceff292cdc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Banca Digital">
+            </div>
+        </div>
+    </section>
+
+    <section id="features">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Seguridad Garantizada</h3>
+                    <p>Protección avanzada para todas tus operaciones bancarias</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Banca Móvil</h3>
+                    <p>Gestiona tus finanzas desde cualquier lugar y en cualquier momento</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Inversiones Inteligentes</h3>
+                    <p>Haz crecer tu dinero con nuestras soluciones de inversión</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>Atención 24/7</h3>
+                    <p>Soporte personalizado cuando lo necesites</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicios">
+        <div class="container">
+            <h2 class="section-title">Nuestros Servicios</h2>
+            <div class="servicios-grid">
+                <div class="servicio-card">
+                    <img src="https://images.unsplash.com/photo-1579621970588-a35d0e7ab9b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Cuentas Bancarias">
+                    <div class="servicio-content">
+                        <h3>Cuentas Bancarias</h3>
+                        <p>Cuentas personales y empresariales diseñadas para satisfacer tus necesidades financieras.</p>
+                        <a href="#" class="btn-link">Más información <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="servicio-card">
+                    <img src="https://images.unsplash.com/photo-1589758438368-0ad531db3366?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Préstamos">
+                    <div class="servicio-content">
+                        <h3>Préstamos</h3>
+                        <p>Soluciones de financiamiento con tasas competitivas para tus proyectos personales o empresariales.</p>
+                        <a href="#" class="btn-link">Más información <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="servicio-card">
+                    <img src="https://images.unsplash.com/photo-1565514020179-026b92b2d0b9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Tarjetas">
+                    <div class="servicio-content">
+                        <h3>Tarjetas</h3>
+                        <p>Tarjetas de crédito y débito con beneficios exclusivos y tecnología de pago sin contacto.</p>
+                        <a href="#" class="btn-link">Más información <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="productos">
+        <div class="container">
+            <h2 class="section-title">Productos Financieros</h2>
+            <div class="tabs">
+                <div class="tab-header">
+                    <div class="tab active" data-tab="particulares">Particulares</div>
+                    <div class="tab" data-tab="empresas">Empresas</div>
+                    <div class="tab" data-tab="inversiones">Inversiones</div>
+                </div>
+                <div class="tab-content">
+                    <div class="tab-pane active" id="particulares">
+                        <div class="productos-grid">
+                            <div class="producto-card">
+                                <h3>Cuenta Joven</h3>
+                                <p class="producto-descripcion">Cuenta sin comisiones para menores de 30 años con tarjeta de débito gratuita.</p>
+                                <ul class="producto-features">
+                                    <li><i class="fas fa-check"></i> Sin comisiones de mantenimiento</li>
+                                    <li><i class="fas fa-check"></i> Tarjeta de débito gratuita</li>
+                                    <li><i class="fas fa-check"></i> Banca online y móvil</li>
+                                </ul>
+                                <a href="#" class="btn btn-outline">Solicitar</a>
+                            </div>
+                            <div class="producto-card">
+                                <h3>Cuenta Premium</h3>
+                                <p class="producto-descripcion">Cuenta con ventajas exclusivas y atención personalizada para clientes premium.</p>
+                                <ul class="producto-features">
+                                    <li><i class="fas fa-check"></i> Gestor personal</li>
+                                    <li><i class="fas fa-check"></i> Tarjetas premium sin comisiones</li>
+                                    <li><i class="fas fa-check"></i> Seguros incluidos</li>
+                                </ul>
+                                <a href="#" class="btn btn-outline">Solicitar</a>
+                            </div>
+                            <div class="producto-card">
+                                <h3>Hipoteca Flexible</h3>
+                                <p class="producto-descripcion">Financiación para tu vivienda con condiciones adaptadas a tus necesidades.</p>
+                                <ul class="producto-features">
+                                    <li><i class="fas fa-check"></i> Hasta 30 años de plazo</li>
+                                    <li><i class="fas fa-check"></i> Tipo fijo o variable</li>
+                                    <li><i class="fas fa-check"></i> Sin comisión de apertura</li>
+                                </ul>
+                                <a href="#" class="btn btn-outline">Solicitar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="empresas">
+                        <div class="productos-grid">
+                            <div class="producto-card">
+                                <h3>Cuenta Negocios</h3>
+                                <p class="producto-descripcion">Cuenta diseñada para autónomos y pequeñas empresas.</p>
+                                <ul class="producto-features">
+                                    <li><i class="fas fa-check"></i> TPV con condiciones especiales</li>
+                                    <li><i class="fas fa-check"></i> Transferencias gratuitas</li>
+                                    <li><i class="fas fa-check"></i> Gestión de recibos</li>
+                                </ul>
+                                <a href="#" class="btn btn-outline">Solicitar</a>
+                            </div>
+                            <div class="producto-card">
+                                <h3>Financiación Empresarial</h3>
+                                <p class="producto-descripcion">Soluciones de financiación para impulsar el crecimiento de tu empresa.</p>
+                                <ul class="producto-features">
+                                    <li><i class="fas fa-check"></i> Líneas de crédito</li>
+                                    <li><i class="fas fa-check"></i> Préstamos para inversión</li>
+                                    <li><i class="fas fa-check"></i> Leasing y renting</li>
+                                </ul>
+                                <a href="#" class="btn btn-outline">Solicitar</a>
+                            </div>
+                            <div class="producto-card">
+                                <h3>Seguros Empresariales</h3>
+                                <p class="producto-descripcion">Protección integral para tu negocio frente a cualquier imprevisto.</p>
+                                <ul class="producto-features">
+                                    <li><i class="fas fa-check"></i> Multirriesgo empresarial</li>
+                                    <li><i class="fas fa-check"></i> Responsabilidad civil</li>
+                                    <li><i class="fas fa-check"></i> Ciberriesgos</li>
+                                </ul>
+                                <a href="#" class="btn btn-outline">Solicitar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="inversiones">
+                        <div class="productos-grid">
+                            <div class="producto-card">
+                                <h3>Fondos de Inversión</h3>
+                                <p class="producto-descripcion">Amplia gama de fondos gestionados por expertos para diversificar tu cartera.</p>
+                                <ul class="producto-features">
+                                    <li><i class="fas fa-check"></i> Gestión activa</li>
+                                    <li><i class="fas fa-check"></i> Diversificación global</li>
+                                    <li><i class="fas fa-check"></i> Desde 50€ de inversión</li>
+                                </ul>
+                                <a href="#" class="btn btn-outline">Invertir</a>
+                            </div>
+                            <div class="producto-card">
+                                <h3>Planes de Pensiones</h3>
+                                <p class="producto-descripcion">Prepara tu jubilación con nuestros planes de pensiones personalizados.</p>
+                                <ul class="producto-features">
+                                    <li><i class="fas fa-check"></i> Ventajas fiscales</li>
+                                    <li><i class="fas fa-check"></i> Diferentes perfiles de riesgo</li>
+                                    <li><i class="fas fa-check"></i> Aportaciones flexibles</li>
+                                </ul>
+                                <a href="#" class="btn btn-outline">Invertir</a>
+                            </div>
+                            <div class="producto-card">
+                                <h3>Bolsa y Mercados</h3>
+                                <p class="producto-descripcion">Accede a los mercados financieros nacionales e internacionales.</p>
+                                <ul class="producto-features">
+                                    <li><i class="fas fa-check"></i> Comisiones competitivas</li>
+                                    <li><i class="fas fa-check"></i> Herramientas de análisis</li>
+                                    <li><i class="fas fa-check"></i> Asesoramiento especializado</li>
+                                </ul>
+                                <a href="#" class="btn btn-outline">Invertir</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="calculadora">
+        <div class="container">
+            <div class="calculadora-content">
+                <div class="calculadora-text">
+                    <h2>Calcula tu préstamo</h2>
+                    <p>Utiliza nuestra calculadora para simular las cuotas de tu préstamo personal.</p>
+                </div>
+                <div class="calculadora-form">
+                    <div class="form-group">
+                        <label for="cantidad">Cantidad (€)</label>
+                        <input type="number" id="cantidad" min="1000" max="100000" value="10000">
+                    </div>
+                    <div class="form-group">
+                        <label for="plazo">Plazo (años)</label>
+                        <input type="range" id="plazo" min="1" max="10" value="5">
+                        <output id="plazo-valor">5</output>
+                    </div>
+                    <div class="form-group">
+                        <label for="interes">Interés (%)</label>
+                        <input type="number" id="interes" min="1" max="15" step="0.1" value="5.5">
+                    </div>
+                    <button id="calcular" class="btn btn-primary">Calcular</button>
+                    <div id="resultado" class="resultado">
+                        <p>Cuota mensual: <span id="cuota">0</span> €</p>
+                        <p>Total a pagar: <span id="total">0</span> €</p>
+                        <p>Intereses: <span id="intereses">0</span> €</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="nosotros">
+        <div class="container">
+            <h2 class="section-title">Sobre Nosotros</h2>
+            <div class="nosotros-content">
+                <div class="nosotros-image">
+                    <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" alt="Equipo BancoSeguro">
+                </div>
+                <div class="nosotros-text">
+                    <p>En BancoSeguro, llevamos más de 30 años ofreciendo soluciones financieras innovadoras y seguras para nuestros clientes. Nuestra misión es proporcionar servicios bancarios de calidad que se adapten a las necesidades cambiantes de particulares y empresas.</p>
+                    <p>Nos distinguimos por nuestro compromiso con la excelencia en el servicio al cliente, la transparencia en todas nuestras operaciones y la constante innovación tecnológica para ofrecer una experiencia bancaria moderna y eficiente.</p>
+                    <div class="stats">
+                        <div class="stat">
+                            <h3>+500K</h3>
+                            <p>Clientes satisfechos</p>
+                        </div>
+                        <div class="stat">
+                            <h3>150</h3>
+                            <p>Oficinas</p>
+                        </div>
+                        <div class="stat">
+                            <h3>98%</h3>
+                            <p>Índice de satisfacción</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonios">
+        <div class="container">
+            <h2 class="section-title">Lo que dicen nuestros clientes</h2>
+            <div class="testimonios-slider">
+                <div class="testimonio">
+                    <div class="testimonio-content">
+                        <p>"BancoSeguro ha transformado la manera en que gestiono mis finanzas. Su aplicación móvil es intuitiva y me permite realizar todas mis operaciones sin complicaciones."</p>
+                    </div>
+                    <div class="testimonio-author">
+                        <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="María García">
+                        <div>
+                            <h4>María García</h4>
+                            <p>Cliente desde 2018</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonio">
+                    <div class="testimonio-content">
+                        <p>"Como empresario, valoro enormemente la atención personalizada que recibo de mi gestor en BancoSeguro. Siempre encuentran soluciones adaptadas a las necesidades de mi negocio."</p>
+                    </div>
+                    <div class="testimonio-author">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Carlos Rodríguez">
+                        <div>
+                            <h4>Carlos Rodríguez</h4>
+                            <p>Cliente desde 2015</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonio">
+                    <div class="testimonio-content">
+                        <p>"Gracias a los consejos de inversión de BancoSeguro, he podido diversificar mi cartera y obtener rendimientos consistentes. Su equipo de asesores financieros es excepcional."</p>
+                    </div>
+                    <div class="testimonio-author">
+                        <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Laura Martínez">
+                        <div>
+                            <h4>Laura Martínez</h4>
+                            <p>Cliente desde 2019</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonios-dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <div class="container">
+            <h2 class="section-title">Contacto</h2>
+            <div class="contacto-content">
+                <div class="contacto-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Dirección</h3>
+                            <p>Av. Financiera 123, 28001 Madrid</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Teléfono</h3>
+                            <p>+34 900 123 456</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>info@bancoseguro.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Horario</h3>
+                            <p>Lun-Vie: 8:30 - 18:00<br>Sáb: 9:00 - 13:00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contacto-form">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="nombre">Nombre completo</label>
+                            <input type="text" id="nombre" name="nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="telefono">Teléfono</label>
+                            <input type="tel" id="telefono" name="telefono">
+                        </div>
+                        <div class="form-group">
+                            <label for="asunto">Asunto</label>
+                            <select id="asunto" name="asunto" required>
+                                <option value="" disabled selected>Selecciona un asunto</option>
+                                <option value="cuentas">Cuentas</option>
+                                <option value="prestamos">Préstamos</option>
+                                <option value="tarjetas">Tarjetas</option>
+                                <option value="inversiones">Inversiones</option>
+                                <option value="otro">Otro</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                        </div>
+                        <div class="form-group checkbox">
+                            <input type="checkbox" id="privacidad" name="privacidad" required>
+                            <label for="privacidad">He leído y acepto la <a href="#">política de privacidad</a></label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>¿Listo para empezar?</h2>
+                <p>Abre tu cuenta en menos de 10 minutos y disfruta de todos nuestros servicios</p>
+                <a href="#" class="btn btn-light">Abrir cuenta</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Banco<span>Seguro</span></h2>
+                    <p>Tu banco de confianza</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Enlaces rápidos</h3>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#productos">Productos</a></li>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Productos</h3>
+                    <ul>
+                        <li><a href="#">Cuentas</a></li>
+                        <li><a href="#">Préstamos</a></li>
+                        <li><a href="#">Tarjetas</a></li>
+                        <li><a href="#">Inversiones</a></li>
+                        <li><a href="#">Seguros</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="#">Aviso legal</a></li>
+                        <li><a href="#">Política de privacidad</a></li>
+                        <li><a href="#">Política de cookies</a></li>
+                        <li><a href="#">Seguridad</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Síguenos</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 BancoSeguro. Todos los derechos reservados.</p>
+                <div class="footer-apps">
+                    <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/2560px-Google_Play_Store_badge_EN.svg.png" alt="Google Play"></a>
+                    <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Download_on_the_App_Store_Badge.svg/2560px-Download_on_the_App_Store_Badge.svg.png" alt="App Store"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal de Login -->
+    <div id="login-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Acceso Clientes</h2>
+            <form id="login-form">
+                <div class="form-group">
+                    <label for="usuario">Usuario</label>
+                    <input type="text" id="usuario" name="usuario" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Contraseña</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="form-group checkbox">
+                    <input type="checkbox" id="recordar" name="recordar">
+                    <label for="recordar">Recordar usuario</label>
+                </div>
+                <button type="submit" class="btn btn-primary btn-full">Acceder</button>
+                <div class="login-links">
+                    <a href="#">¿Olvidaste tu contraseña?</a>
+                    <a href="#">Registrarse</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
